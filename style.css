@@ -12,8 +12,8 @@ body {
 }
 
 .cuadrado {
-  width: 500px;
-  height: 300px;
+  width: 300px;
+  height: 500px;
   background: #14532d;
   border: 5px solid #ffffff;
   border-radius: 20px;
