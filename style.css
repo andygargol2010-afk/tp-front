@@ -59,10 +59,19 @@ body {
 .jugador {
   width: 58px;
   height: 58px;
-  background: #00ffff;
-  border: 3px solid #ffffff;
+  background: #00a9a5;
+  border: none;
   border-radius: 8px;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: bold;
 }
 
 .fila-arco {
@@ -85,6 +94,8 @@ body {
   .jugador {
     width: 42px;
     height: 42px;
+    font-size: 8px;
+    padding: 3px;
   }
 
   .jugadores {
