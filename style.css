@@ -59,7 +59,7 @@ body {
 .jugador {
   width: 58px;
   height: 58px;
-  background: #ffffff;
+  background: #00ffff;
   border: 3px solid #ffffff;
   border-radius: 8px;
   flex-shrink: 0;
