@@ -50,7 +50,7 @@ body {
 .jugadores {
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
   gap: 20px;
   margin: 4px 0;
@@ -58,20 +58,30 @@ body {
 
 .jugador {
   width: 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.jugador .cuadro {
+  width: 58px;
   height: 58px;
   background: #00a9a5;
   border: none;
   border-radius: 8px;
+  padding: 0;
   flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
+}
+
+.jugador span {
   color: #ffffff;
-  font-size: 11px;
+  font-size: 10px;
   line-height: 1.1;
   text-align: center;
   font-weight: bold;
+  white-space: normal;
 }
 
 .fila-arco {
@@ -91,11 +101,17 @@ body {
 }
 
 @media (max-width: 600px) {
-  .jugador {
+  .jugador,
+  .jugador .cuadro {
     width: 42px;
+  }
+
+  .jugador .cuadro {
     height: 42px;
+  }
+
+  .jugador span {
     font-size: 8px;
-    padding: 3px;
   }
 
   .jugadores {
