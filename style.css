@@ -105,6 +105,13 @@ body {
   white-space: normal;
 }
 
+.jugador .posicion {
+  font-size: 8px;
+  font-weight: normal;
+  line-height: 1;
+  margin-top: -2px;
+}
+
 .fila-arco {
   justify-content: center;
 }
@@ -139,6 +146,10 @@ body {
 
   .jugador span {
     font-size: 8px;
+  }
+
+  .jugador .posicion {
+    font-size: 7px;
   }
 
   .jugadores {
