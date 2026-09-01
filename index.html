@@ -38,5 +38,15 @@
       </div>
     </div>
   </div>
+
+  <script>
+    const jugadores = document.querySelectorAll('.jugador');
+    const jugadorGol = jugadores[Math.floor(Math.random() * jugadores.length)];
+    const pelota = document.createElement('div');
+    pelota.className = 'pelota-gol';
+    pelota.textContent = '⚽';
+    pelota.setAttribute('aria-label', 'Gol');
+    jugadorGol.prepend(pelota);
+  </script>
 </body>
 </html>
