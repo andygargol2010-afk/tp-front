@@ -78,6 +78,10 @@ body {
   justify-content: center;
 }
 
+.fila-arco .jugador .cuadro {
+  background: #ffffff;
+}
+
 .dorsal {
   width: 34px;
   height: 34px;
