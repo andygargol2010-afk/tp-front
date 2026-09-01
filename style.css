@@ -112,6 +112,14 @@ body {
   margin-top: -2px;
 }
 
+.pelota-gol {
+  font-size: 22px;
+  line-height: 1;
+  height: 22px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
 .fila-arco {
   justify-content: center;
 }
@@ -150,6 +158,11 @@ body {
 
   .jugador .posicion {
     font-size: 7px;
+  }
+
+  .pelota-gol {
+    font-size: 18px;
+    height: 18px;
   }
 
   .jugadores {
